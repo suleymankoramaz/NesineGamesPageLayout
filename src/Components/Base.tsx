@@ -70,7 +70,7 @@ const Base = (props: Props) => {
           </div>
         </div>
         <div className='coupons'>
-          <div>Satın almış olduğunuz Zeplin kuponlarına buradan ulaşabilirsiniz.</div>
+          <div className='coupons-info'>Satın almış olduğunuz Zeplin kuponlarına buradan ulaşabilirsiniz.</div>
           <div className='go-my-coupons'> Kuponlarıma Git</div>
         </div>
         <div className='cekilemez-bakiye-container'>
@@ -82,8 +82,7 @@ const Base = (props: Props) => {
         <iframe
           title='ertgaming tas kagıt makas'  
           src='http://ertgaming.com/game-play'
-          width='100%'
-          height='100%'
+          className='iFrame'
         />
       </div>
       <div className='game-info-container'>
